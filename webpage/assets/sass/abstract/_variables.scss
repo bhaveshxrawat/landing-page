@@ -1,0 +1,49 @@
+/* Text Color */
+$white : white;
+$black : black;
+$lightblack : #333333;
+$lightwhite: #CECECE;
+$blue : #0F2FC8;
+$bwhite: #242424;
+
+/*Font Sizes & Weight*/
+$title: 4rem;
+$wtitle: 800;
+$ZEG: 26px;
+$wZEG: 600;
+$SetH4: 1.2rem;
+$wSetH4: 800;
+$h2: 2rem;
+$h3: 1.5rem;
+$context20: 1.25rem;
+$bef: 10px;
+
+/*Width*/
+$mwContent: 1605px;
+
+/*img sizes*/
+$Arrow: 30px;
+
+/*Background color*/
+$DwhitePwhite: linear-gradient(180deg, rgb(230, 230, 230) 0%, rgb(255, 255, 255) 40%);
+$PB: radial-gradient(
+    at 58% 57%,
+    hsla(349, 0%, 0%, 1) 0px,
+    transparent 50%
+  ),
+  radial-gradient(at 100% 100%, hsla(350, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 100% 0%, hsla(350, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 43% 21%, hsla(229, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 13% 58%, hsla(230, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 29% 41%, hsla(9, 67%, 23%, 1) 0px, transparent 50%),
+  radial-gradient(at 16% 28%, hsla(231, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(232, 100%, 30%, 0.57) 0px, transparent 50%),
+  radial-gradient(at 51% 35%, hsla(189, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 45% 76%, hsla(67, 0%, 0%, 1) 0px, transparent 50%),
+  radial-gradient(at 98% 58%, hsla(13, 64%, 22%, 1) 0px, transparent 50%),
+  radial-gradient(at 98% 34%, hsla(232, 100%, 30%, 1) 0px, transparent 50%);
+
+/*Margin & Padding*/
+$bPadding: 7.75vw;
+$mMain: 0 auto;
+$offset: 36px;

@@ -1,0 +1,48 @@
+@mixin flexFLCenter($FL) {
+  display: flex;
+  flex-direction: $FL;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexFLStart($FL) {
+  display: flex;
+  flex-direction: $FL;
+  justify-content: flex-start;
+  align-items: center;
+}
+@mixin flexFLSB($FL) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: $FL;
+}
+@mixin glass {
+  background: rgb(255 255 255 / 11%);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+}
+@mixin projectbrief1272 {
+  @media (max-width: 1272px) {
+    @content;
+  }
+}
+@mixin mw800 {
+  @media (max-width: 800px) {
+    @content;
+  }
+}
+@mixin rev525 {
+  @media (max-width: 525px) {
+    @content;
+  }
+}
+@mixin proflow390 {
+  @media (max-width: 390px) {
+    @content;
+  }
+}
+@mixin proflowmin390 {
+  @media (min-width: 390px) {
+    @content;
+  }
+}
