@@ -1,5 +1,5 @@
 @use "abstract" as *;
-
+// sass --watch style.scss:style.min.css --style compressed
 body {
   font-family: "Gilroy", sans-serif;
   box-sizing: border-box;
