@@ -1,0 +1,25 @@
+@mixin projectbrief1272 {
+    @media (max-width: 1272px) {
+      @content;
+    }
+  }
+  @mixin mw800 {
+    @media (max-width: 800px) {
+      @content;
+    }
+  }
+  @mixin rev525 {
+    @media (max-width: 525px) {
+      @content;
+    }
+  }
+  @mixin proflow390 {
+    @media (max-width: 390px) {
+      @content;
+    }
+  }
+  @mixin proflowmin390 {
+    @media (min-width: 390px) {
+      @content;
+    }
+  }
